@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_retrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="재학습" />
+
+    <Button
+        android:id="@+id/button_ai_translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI 통역" />
+
+    <Button
+        android:id="@+id/button_data_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터 이전" />
+</LinearLayout>
